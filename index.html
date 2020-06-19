@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
 
-    <script src="card.js"></script>
     <title>Document</title>
 </head>
 
@@ -17,15 +16,15 @@
         <!-- Sezione header -->
         <div class="row">
             <div class="col-2">
-                <button class="btn btn-primary" onclick="startTimer()">Start</button>
+                <button class="btn btn-primary" id="startTimerButton" onclick="startGameTimer()">Start</button>
             </div>
             <div class="col-2">
                 <span class="gameTimer" id="gameTimer">
-          Timer qui?
+          00:00
         </span>
             </div>
             <div class="col-2">
-                <button class="btn btn-danger" onclick="quit()">Stop</button>
+                <button class="btn btn-danger" id="stopTimerButton" onclick="stopGameTimer()">Stop</button>
 
             </div>
             <div class="col-6">
@@ -35,7 +34,7 @@
         </div>
         <!-- Sezione carte -->
         <div>
-            <div class="row mb-4">
+            <div class="row my-4">
                 <div class="col-3">
                     <div class="flip-card">
                         <div class="flip-card-inner">
@@ -43,7 +42,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">1</h1>
                             </div>
                         </div>
                     </div>
@@ -55,7 +54,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">3</h1>
                             </div>
                         </div>
                     </div>
@@ -67,7 +66,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">6</h1>
                             </div>
                         </div>
                     </div>
@@ -79,7 +78,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">4</h1>
                             </div>
                         </div>
                     </div>
@@ -94,7 +93,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">2</h1>
                             </div>
                         </div>
                     </div>
@@ -106,7 +105,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">3</h1>
                             </div>
                         </div>
                     </div>
@@ -118,7 +117,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">1</h1>
                             </div>
                         </div>
                     </div>
@@ -130,7 +129,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">5</h1>
                             </div>
                         </div>
                     </div>
@@ -144,7 +143,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">5</h1>
                             </div>
                         </div>
                     </div>
@@ -156,7 +155,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">3</h1>
                             </div>
                         </div>
                     </div>
@@ -168,7 +167,7 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">4</h1>
                             </div>
                         </div>
                     </div>
@@ -180,15 +179,15 @@
                                 <img src="assets/cardback.png" alt="cardback" />
                             </div>
                             <div class="flip-card-back">
-                                <h1>Ciao Sono un numero</h1>
+                                <h1 class="numeroCarta">6</h1>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="card.js"></script>
+        <script src="timer.js"></script>
 </body>
-
-</html>
 
 </html>
