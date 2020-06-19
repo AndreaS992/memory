@@ -1,0 +1,27 @@
+
+
+                                                Cose da fare
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+- Le carte si devono girare col click
+
+
+
+
+
+
+- Immissione nome tramite dialog SE la partita è completata da salvare come scoreboard assieme al tempo
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
